@@ -1,0 +1,64 @@
+header {
+    background: pink;
+    margin: 0;
+    height: 6vh;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+body{
+    padding: 0;
+    margin: 0;
+
+}
+header a {
+    color: rgb(48, 151, 117);
+    text-decoration: none;
+    margin-right: 1em;
+}
+
+content{
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 10em;
+    margin-bottom: 5em;
+}
+
+.homeInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80vh;
+}
+
+.homeImg{
+    width: 30%;;
+    border-radius: 10%;
+}
+
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.card{
+    width: 25%;
+    background: palegoldenrod;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.card img{
+    width: 100%;
+}
